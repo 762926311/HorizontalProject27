@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_my_line"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#1D5DA1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_oil_name_one"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edit_shape"
+                android:drawableLeft="@mipmap/null_placeholder"
+                android:drawableRight="@mipmap/advance_set"
+                android:singleLine="true"
+                android:gravity="center"
+                android:clickable="true"
+                android:text="92#"
+                android:textColor="@color/red"
+                android:paddingRight="20dp"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/title_textview_size"
+                android:cursorVisible="false">
+            </EditText>
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/id_oil_name_one"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:text="0#"-->
+<!--                android:textColor="#fff"-->
+<!--                android:textSize="50sp" />-->
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#7F7F7F" />
+            <EditText
+                android:id="@+id/edit_oil_name_two"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:background="@drawable/edit_shape"
+                android:drawableLeft="@mipmap/null_placeholder"
+                android:singleLine="true"
+                android:text="92#"
+                android:textColor="@color/red"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/title_textview_size"
+                android:cursorVisible="false"
+                android:drawableRight="@mipmap/advance_set"
+                android:clickable="true"
+                android:paddingRight="20dp"/>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#7F7F7F" />
+<!--            <TextView-->
+<!--                android:id="@+id/id_oil_name_three"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:text="95#"-->
+<!--                android:textColor="#fff"-->
+<!--                android:textSize="50sp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="1dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="#7F7F7F" />-->
+<!--            <TextView-->
+<!--                android:id="@+id/id_oil_name_four"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:text="98#"-->
+<!--                android:textColor="#fff"-->
+<!--                android:textSize="50sp" />-->
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#7F7F7F" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <EditText
+                    android:id="@+id/edit_gun_no_one"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:background="@drawable/edit_shape"
+                    android:drawableLeft="@mipmap/null_placeholder"
+                    android:singleLine="true"
+                    android:text="1"
+                    android:textColor="@color/white_color"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/title_textview_size"
+                    android:cursorVisible="false"
+                    android:inputType="numberDecimal"/>
+
+                <TextView
+                    android:id="@+id/id_gun_no_one"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="号枪"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/title_textview_size" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#7F7F7F" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <EditText
+                    android:id="@+id/edit_gun_no_two"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:background="@drawable/edit_shape"
+                    android:drawableLeft="@mipmap/null_placeholder"
+                    android:singleLine="true"
+                    android:text="2"
+                    android:textColor="@color/white_color"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/title_textview_size"
+                    android:cursorVisible="false"
+                    android:inputType="numberDecimal"/>
+                <TextView
+                    android:id="@+id/id_gun_no_two"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="号枪"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/title_textview_size" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#7F7F7F" />
+<!--            <TextView-->
+<!--                android:id="@+id/id_gun_no_three"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:text="3号枪"-->
+<!--                android:textColor="#fff"-->
+<!--                android:textSize="50sp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="1dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="#7F7F7F" />-->
+<!--            <TextView-->
+<!--                android:id="@+id/id_gun_no_four"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:text="4号枪"-->
+<!--                android:textColor="#fff"-->
+<!--                android:textSize="50sp" />-->
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:id="@+id/id_fragment_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#7F7F7F" />
+        <FrameLayout
+            android:id="@+id/id_fragment_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#7F7F7F"/>
+<!--        <FrameLayout-->
+<!--            android:id="@+id/id_fragment_three"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@mipmap/step"-->
+<!--            android:layout_weight="1" />-->
+<!--        <TextView-->
+<!--            android:layout_width="1dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#7F7F7F"/>-->
+<!--        <FrameLayout-->
+<!--            android:id="@+id/id_fragment_four"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@mipmap/step"-->
+<!--            android:layout_weight="1"/>-->
+    </LinearLayout>
+</LinearLayout>

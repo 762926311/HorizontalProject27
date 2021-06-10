@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="translate">#00000000</color>
+    <color name="background_gray">#FFEEEEEE</color>
+    <color name="gray">#808080</color>
+    <color name="categorize_title_backgound">#0093DD</color>
+    <color name="color_black">#ff000000</color>
+    <color name="bg_color">#f1f2f2</color>
+    <color name="app_green_alpha">#ff45c01a</color>
+    <color name="black">#000</color>
+    <color name="white_color">#ffffff</color>
+    <color name="divider_color">#515152</color>
+    <color name="title_color">#FFEAEAEA</color>
+    <color name="red">#ff0000</color>
+    <color name="color_line">#ff444444</color>
+</resources>

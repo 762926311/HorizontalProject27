@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <VideoView
+        android:id="@+id/activity_my_sf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:textColor="#7F7F7F"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/tv_checksd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:focusableInTouchMode="true"
+        android:singleLine="false"
+        android:text="网络已经连接但是暂时没有可供播放的视频文件，请检查SD卡文件"
+        android:textSize="100dp"
+        android:layout_marginHorizontal="50dp"
+        android:textColor="@color/white_color">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:ellipsize="marquee"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="河南英高能源科技有限公司"
+        android:textSize="75dp"
+        android:textColor="@color/white_color">
+    </TextView>
+</FrameLayout>
